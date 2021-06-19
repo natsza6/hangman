@@ -39,7 +39,7 @@ def tab1():
         button3 = Button(window, text = "OK")
         button3.pack(pady=10)
 
-
+        #TUTAJ BĘDZIE TRZECIA STRONA GRY - GRA WŁAŚCIWA
         def tab3():
             label2.destroy()
             button2.destroy()
