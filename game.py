@@ -16,10 +16,10 @@ choose_your_fighter_img = ImageTk.PhotoImage(Image.open('/Users/mac/Desktop/choo
 logo_img = ImageTk.PhotoImage(Image.open('/Users/mac/Desktop/logo.png'))
 
 #PIERWSZA STRONA GRY
-def tab1():
+def strona1():
 
     #DRUGA STRONA GRY
-    def tab2():
+    def strona2():
         label1.destroy()
         button1.destroy()
         button2.destroy()
@@ -40,23 +40,23 @@ def tab1():
         button3.pack(pady=10)
 
         #TUTAJ BĘDZIE TRZECIA STRONA GRY - GRA WŁAŚCIWA
-        def tab3():
+        def strona3():
             label2.destroy()
             button2.destroy()
             label1.destroy()
             button1.destroy()
-            tab1()
+            strona1()
 
     #CZĘŚĆ DALSZA PIERWSZEJ STRONY GRY
     label1 = Label(window, image=logo_img)
     label1.pack(pady=10)
 
-    button1 = Button(window, image = noc_przed_img,command=tab2)
+    button1 = Button(window, image = noc_przed_img,command=strona2)
     button1.pack(pady=10)
 
-    button2 = Button(window, image = bez_spiny_img,command=tab2)
+    button2 = Button(window, image = bez_spiny_img,command=strona2)
     button2.pack(pady=10)
 
 
-tab1()
+strona1()
 window.mainloop()
