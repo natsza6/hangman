@@ -25,11 +25,10 @@ def strona1():
         button2.destroy()
         label2 = Label(window, image = choose_your_fighter_img)
         label2.pack(pady=10)
-        options = [
+        options = ["Kategorie do wyboru",
         "Wrogowie Studentów",
         "Paliwo Studenta",
-        "Energetyki"
-        ]
+        "Energetyki"]
         clicked = StringVar()
         clicked.set(options[0])
 
