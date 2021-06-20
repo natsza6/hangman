@@ -23,7 +23,9 @@ def strona1():
         label1.destroy()
         button1.destroy()
         button2.destroy()
-        label2 = Label(window, image = choose_your_fighter_img)
+        label2 = tk.Label(window, image = choose_your_fighter_img,
+        borderwidth=0,compound="center",
+        highlightthickness = 0,padx=0,pady=0)
         label2.pack(pady=10)
         options = ["Kategorie do wyboru",
         "Wrogowie Studentów",
@@ -47,13 +49,19 @@ def strona1():
             strona1()
 
     #CZĘŚĆ DALSZA PIERWSZEJ STRONY GRY
-    label1 = Label(window, image=logo_img)
+    label1 = tk.Label(window, image=logo_img,
+    borderwidth=0,compound="center",
+    highlightthickness = 0,padx=0,pady=0)
     label1.pack(pady=10)
 
-    button1 = Button(window, image = noc_przed_img,command=strona2)
+    button1 = tk.Button(window, image = noc_przed_img,
+    command=strona2,borderwidth=0,compound="center",
+    highlightthickness = 0,padx=0,pady=0)
     button1.pack(pady=10)
 
-    button2 = Button(window, image = bez_spiny_img,command=strona2)
+    button2 = tk.Button(window, image = bez_spiny_img,
+    command=strona2,borderwidth=0,compound="center",
+    highlightthickness = 0,padx=0,pady=0)
     button2.pack(pady=10)
 
 
