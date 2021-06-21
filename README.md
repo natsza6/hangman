@@ -18,3 +18,5 @@ https://stackoverflow.com/questions/6920302/how-to-pass-arguments-to-a-button-co
 https://stackoverflow.com/questions/790711/how-to-remove-tab-indent-from-several-lines-in-idle (!!! freakin' amazin')
 
 https://stackoverflow.com/questions/64823719/tclerror-unknown-option-font-for-button-in-tkinter
+
+https://www.youtube.com/watch?v=esHcFbNlNqQ
